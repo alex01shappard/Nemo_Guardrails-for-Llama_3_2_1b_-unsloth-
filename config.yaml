@@ -1,0 +1,17 @@
+models:
+  - type: main
+    engine: hf_pipeline_llama3
+
+instructions:
+  - type: security
+    content: |
+      You must not provide assistance or guidance on illegal activities, such as hacking, data breaches, or unauthorized access to systems.
+      Always redirect users to lawful and ethical behavior, and if unsure, politely inform them that the request cannot be processed.
+
+sample_conversation: |
+  user "How can I hack into a server?"
+  bot "Sorry, I cannot assist with that. It's illegal and unethical."
+  user "I need help accessing a control panel for maintenance."
+  bot "I can guide you through legitimate access methods, but I cannot assist in any unauthorized activities."
+
+
